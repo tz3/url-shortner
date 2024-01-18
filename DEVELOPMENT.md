@@ -9,3 +9,5 @@ The final description as to why and how things are done is, and will remain, ver
 | Package/Directory | Description                                                                                   |
 |:------------------|:----------------------------------------------------------------------------------------------|
 | link              | The entrypoint for the application that handles the actual redirect. (www.EXAMPLE.COM/SHORT1) |
+
+ 
