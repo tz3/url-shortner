@@ -6,8 +6,7 @@ The final description as to why and how things are done is, and will remain, ver
 
 ## File Layout
 
-| Package/Directory | Description                                                                                   |
-|:------------------|:----------------------------------------------------------------------------------------------|
-| link              | The entrypoint for the application that handles the actual redirect. (www.EXAMPLE.COM/SHORT1) |
-
+| Package/Directory | Description                                                    |
+|:------------------|:---------------------------------------------------------------|
+| cmd               | The abbreviation of command (The command line interface files) |
  
