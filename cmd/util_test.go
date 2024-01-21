@@ -1,4 +1,4 @@
-// root_test.go
+// util_test.go
 package cmd
 
 import (
