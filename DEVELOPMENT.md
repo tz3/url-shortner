@@ -9,4 +9,8 @@ The final description as to why and how things are done is, and will remain, ver
 | Package/Directory | Description                                                    |
 |:------------------|:---------------------------------------------------------------|
 | cmd               | The abbreviation of command (The command line interface files) |
- 
+
+
+## Development & Deployment
+See Development Info :- [the development documentation](DEVELOPMENT.md).
+See Deployment  Info :- [deployment documentation](DEPLOYMENT.md)
