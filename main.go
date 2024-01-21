@@ -1,7 +1,11 @@
-package url_shortner
+package main
 
-import "github.com/tz3/url-shortner/cmd"
+import (
+	"github.com/tz3/url-shortner/cmd"
+	"os"
+)
 
 func main() {
-	cmd.Execute()
+	exitCode := cmd.Execute(cmd.Root)
+	os.Exit(exitCode)
 }
