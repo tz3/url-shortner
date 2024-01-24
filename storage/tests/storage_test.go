@@ -13,7 +13,7 @@ import (
 const seed = 42 // is a constant used as the seed for random number generation
 
 // benchmarkLengths contains different lengths for benchmarking.
-var benchmarkLengths = []int64{10, 100, 1000, 100000, 50000}
+var benchmarkLengths = []int64{10, 100, 1000, 100000, 5000000}
 
 // sinkFactories is a map associating storage types with functions creating storage repositories.
 var sinkFactories = map[string]func() storage.Repository{
