@@ -33,7 +33,7 @@ func WithError(err error) TestOption {
 	}
 }
 
-// see storage.Storer
+// Get see storage.Repository
 func (ts *ts) Get(u *url.URL) (*url.URL, error) {
 	if ts.err != nil {
 		return nil, ts.err
@@ -46,7 +46,7 @@ func (ts *ts) Get(u *url.URL) (*url.URL, error) {
 	return nil, storage.ErrorNotFound
 }
 
-// see storage.Storer
+// Set see storage.Repository
 func (ts *ts) Set(f *url.URL, t *url.URL) error {
 	if ts.err != nil {
 		return ts.err
