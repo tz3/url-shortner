@@ -15,8 +15,3 @@ func Execute(c *cobra.Command) int {
 	}
 	return ExitSuccess
 }
-
-// Noop function simply indicates that this command, in and of itself, does nothing.
-func Noop(c *cobra.Command, args []string) error {
-	return fmt.Errorf("%w: required subcommand not supplied", ExitUsageError)
-}

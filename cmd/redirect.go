@@ -8,7 +8,6 @@ import (
 var redirectCmd = &cobra.Command{
 	Use:   "Redirect Urls",
 	Short: "Subcommand related to prediction of the urls",
-	RunE:  Noop,
 }
 
 func init() {
